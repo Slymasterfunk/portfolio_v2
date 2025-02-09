@@ -35,3 +35,9 @@ nav a:hover {
   color: var(--secondary-color);
   /* font-size: 25px; */
 }
+
+@media (max-width: 768px) {
+  nav h1 {
+    display: none;
+  }
+}
