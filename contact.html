@@ -3,26 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="form.css" />
     <title>Contact Page</title>
   </head>
-  <body>
-    <h1>Conatct Us</h1>
-    <a href="./index.html">Main Page</a>
-    <br />
-    <a href="./about.html">About Page</a>
+  <body id="contact">
+    <nav>
+      <h1>My Portfolio Website</h1>
+      <ul>
+        <li>
+          <a href="./index.html">Home</a>
+        </li>
+        <li>
+          <a href="./about.html">About Page</a>
+        </li>
+        <li>
+          <a href="./contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="contact-title">Contact Us</h1>
 
-    <!-- Code for creating a form. -->
-    <form action="#">
-      <!-- <label for="name">Name</label>
-      <input type="text" required /> -->
-      <br />
-      <input type="text" placeholder="Name" required />
-      <br />
-      <input type="email" placeholder="Email" required />
-      <br />
-      <input type="date" required />
-      <br />
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="container-form">
+      <!-- Code for creating a form. -->
+      <form action="#">
+        <!-- <label for="name">Name</label>
+        <input type="text" required /> -->
+        <input type="text" placeholder="Name" required />
+        <br />
+        <input type="email" placeholder="Email" required />
+        <br />
+        <input type="date" required />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
   </body>
 </html>

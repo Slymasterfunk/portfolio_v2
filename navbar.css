@@ -1,0 +1,37 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  height: 50px;
+  padding: 20px;
+}
+
+nav h1 {
+  color: #000;
+  background: none;
+  font-family: var(--main-font);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  background: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+  background: none;
+}
+
+nav a {
+  background: none;
+  font-family: var(--main-font);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: var(--secondary-color);
+  /* font-size: 25px; */
+}

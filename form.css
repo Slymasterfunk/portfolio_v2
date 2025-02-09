@@ -1,0 +1,25 @@
+form {
+  background: var(--secondary-color);
+  width: 40vw;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+form input {
+  width: 100%;
+  font-size: 30px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid var(--main-color);
+  color: #fff;
+  outline: none;
+}
+
+form input[type='submit'] {
+  margin-top: 20px;
+  margin-bottom: 0;
+  background: var(--main-color);
+  border-bottom: none;
+  padding: 10px;
+}
